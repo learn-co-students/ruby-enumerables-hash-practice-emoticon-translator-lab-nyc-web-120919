@@ -1,5 +1,4 @@
 describe "#load_library" do
-  binding.pry
 
   it "accepts one argument, the file path" do
     expect { load_library("./lib/emoticons.yml") }.to_not raise_error
